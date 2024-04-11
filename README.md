@@ -2,7 +2,7 @@
 
 use vmas to create a new scenario which is suitable for plane and tower environment
 
-Initialization
+# Initialization
 
 ! git clone https://github.com/proroklab/VectorizedMultiAgentSimulator.git
 
@@ -22,6 +22,8 @@ display = pyvirtualdisplay.Display(visible=False, size=(1400, 900))
 
 display.start()
 
-Citation
+# Citation
 
-initialization, base scenario code comes from https://github.com/proroklab/VectorizedMultiAgentSimulator
+initialization code comes from https://github.com/proroklab/VectorizedMultiAgentSimulator
+
+I create my plane scenario, by extending the BaseScenario class in scenario.py which comes from https://github.com/proroklab/VectorizedMultiAgentSimulator
