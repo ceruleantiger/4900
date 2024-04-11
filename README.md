@@ -4,7 +4,8 @@ use vmas to create a new scenario which is suitable for plane and tower environm
 
 # Scenario
 
-agents are one plane and 2 towers, landmarks are start place, end place. a plane fly from start place to end place, towers speak and plane receive signal in tower's control area. tower A's control area radius is 4, tower B's control area radius is 4,  tower A's control area and tower B's control area overlap. The origin (0, 0) changes based on in which tower's control area, at first, origin (0, 0) is tower A's place, once going to  tower B's control area, origin (0, 0) is tower B's place. Plane can choose listen to closest tower. 
+Agents are one plane and 2 towers, landmarks are start place, end place. a plane flies from start place to end place, towers speak and plane receives signal in tower's control area. Tower A's control area radius is 4, tower B's control area radius is 4,  tower A's control area and tower B's control area overlap. The origin (0, 0) changes according to which tower's control area the plane is in, at first, origin (0, 0) is tower A's place, once going to  tower B's control area, origin (0, 0) is tower B's place. Plane can choose listen to closest tower. 
+
 
 
 # Initialization
