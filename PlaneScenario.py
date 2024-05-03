@@ -76,7 +76,7 @@ class PlaneScenario(BaseScenario):
                 )
                 agent.set_vel(
                     torch.tensor(
-                        [1, 0],  dtype=torch.float32, device=self.world.device,
+                        [4.7, 2],  dtype=torch.float32, device=self.world.device,
                     ),
                     batch_index=env_index,
                 )
@@ -171,4 +171,5 @@ class PlaneScenario(BaseScenario):
         alldone = ifend
 
         return torch.tensor(alldone, device=self.world.device).expand(self.world.batch_dim)
+    
 
